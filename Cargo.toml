@@ -1,6 +1,6 @@
 [package]
 name = "striptags"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.74"
 description = "Strip HTML tags from a string, with optional allowed tags and a replacement. A faithful port of the striptags npm package. Zero dependencies, no_std."
