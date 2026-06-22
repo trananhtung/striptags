@@ -1,0 +1,25 @@
+[package]
+name = "striptags"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Strip HTML tags from a string, with optional allowed tags and a replacement. A faithful port of the striptags npm package. Zero dependencies, no_std."
+documentation = "https://docs.rs/striptags"
+repository = "https://github.com/trananhtung/striptags"
+homepage = "https://github.com/trananhtung/striptags"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["html", "strip", "tags", "sanitize", "text"]
+categories = ["text-processing", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
